@@ -1,0 +1,13 @@
+name: "Ultra mender"
+description: "All the power of healing in this block."
+details: "Sandbox only",
+type: mendProjector
+health: 9999999
+size: 1
+reload: 0.0000001
+range: 800
+healPercent: 100
+consumes: {
+}
+category: effect
+buildVisibility: sandboxOnly

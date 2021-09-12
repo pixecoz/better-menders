@@ -1,0 +1,41 @@
+name: "Repair shed"
+description: "VERY VERY strong mender. It has a VERY VERY good range, with which it can be placed almost anywhere. But VERY VERY expensive to build."
+details: "Heal percent: 25",
+type: mendProjector
+health: 3400
+size: 4
+buildCostMultiplier: 1.15
+reload: 105
+range: 356
+healPercent: 25
+itemCapacity: 25
+hasPower: true
+phaseBoost: 40
+phaseRangeBoost: 210
+consumes: {
+	power: 80.5,
+	items: {
+		items: [
+   silicon/5
+   phase-fabric/5
+   surge-alloy/5
+   plastanium/5
+		]
+		optional: true, 
+		booster: true
+	}
+}
+requirements: [
+	silicon/4000
+ copper/8000
+	lead/8000
+	graphite/2500
+	plastanium/1900
+	titanium/5000
+ surge-alloy/3000
+ phase-fabric/1200
+ thorium/400
+ metaglass/2700
+]
+category: effect
+research: "repair-dome"

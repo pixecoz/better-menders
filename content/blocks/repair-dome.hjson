@@ -1,0 +1,35 @@
+name: "Repair dome"
+description: "Very strong mender. It has a very good range, with which it can be placed almost anywhere."
+type: mendProjector
+details: "Heal percent: 19",
+health: 490
+size: 3
+buildCostMultiplier: 0.15
+reload: 150
+range: 164
+healPercent: 19
+itemCapacity: 10
+hasPower: true
+phaseBoost: 10
+phaseRangeBoost: 70
+consumes: {
+	power: 6.8,
+	items: {
+		items: [
+   silicon/1
+   phase-fabric/1
+		]
+		optional: true, 
+		booster: true
+	}
+}
+requirements: [
+	silicon/350
+ copper/600
+	lead/700
+	graphite/230
+	plastanium/180
+	titanium/290
+]
+category: effect
+research: "mend-projector"

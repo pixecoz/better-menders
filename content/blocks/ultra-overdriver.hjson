@@ -1,0 +1,12 @@
+name: "Ultra overdriver",
+description: "All the force of acceleration in this block.",
+details: "Sandbox only",
+type: OverdriveProjector,
+health: 9999999,
+size: 1,
+range: 800,
+consumes: {
+},
+speedBoost: 500,
+category: effect
+buildVisibility: sandboxOnly

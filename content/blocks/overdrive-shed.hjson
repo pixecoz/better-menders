@@ -1,0 +1,38 @@
+name: "Overdrive shed",
+description: "Good acceleration of most blocks around - large radius and great acceleration. Expensive to build, but must be worth it.",
+details: "Needs a lot of energy",
+type: OverdriveProjector,
+health: 900,
+size: 4,
+range: 300,
+itemCapacity: 25
+consumes: { 
+power: 180.5,
+items: {
+ items: [
+  silicon/5
+  phase-fabric/5
+  surge-alloy/5
+  plastanium/5
+  ],
+ booster: false,
+ optional: false
+ } 
+},
+speedBoost: 4.5,
+speedBoostPhase: 0,
+requirements: [
+ silicon/7000
+ copper/11000
+	lead/9000
+	graphite/6000
+	plastanium/6500
+	titanium/8000
+ surge-alloy/3700
+ phase-fabric/2800
+ thorium/2600
+ metaglass/7000
+ blast-compound/120
+	],
+	category: effect,
+research: "overdrive-dome"

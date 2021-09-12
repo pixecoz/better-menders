@@ -1,0 +1,28 @@
+name: "Overdriver",
+description: "Small, not resource-intensive, but almost useless, use at your own peril and risk.",
+type: OverdriveProjector,
+details: "(Most likely it is not profitable)",
+health: 80,
+size: 1,
+range: 26,
+consumes: { 
+power: 2,
+items: {
+ items: [
+  silicon/2
+  ],
+ booster: true,
+ optional: true
+ } 
+},
+speedBoost: 1.1,
+speedBoostPhase: 0.2,
+phaseRangeBoost: 13,
+requirements: [
+copper/170
+lead/80
+silicon/60
+titanium/80
+	],
+	category: effect,
+research: "overdrive-projector"
